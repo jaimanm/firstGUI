@@ -1,8 +1,4 @@
-from calendar import c
 from tkinter import *
-from turtle import width
-
-from pyparsing import col
 
 # key down function (for submit button)
 def click():
