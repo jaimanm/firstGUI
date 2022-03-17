@@ -43,7 +43,7 @@ def checkWin():
         b8.config(bg='green')
         b9.config(bg='green')
         winner = True
-        messagebox.showinfo('Tic Tac Toe', b4['text'] + ' wins!')
+        messagebox.showinfo('Tic Tac Toe', b7['text'] + ' wins!')
         disableButtons()
     elif b1['text'] == b4['text'] == b7['text'] and not b1['text'] == ' ':
         b1.config(bg='green')
