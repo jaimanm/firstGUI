@@ -15,7 +15,7 @@ window.title("My First GUI") # set title of window
 window.configure(background='black') # set background to black
 
 # create photo
-photo1 = PhotoImage(file='python.gif')
+photo1 = PhotoImage(file='python.png')
 Label(window, image=photo1, bg='black').grid(row=0, column=0, sticky=E)
 
 # create label
