@@ -15,8 +15,8 @@ window.title("My First GUI") # set title of window
 window.configure(background='black') # set background to black
 
 # create photo
-photo1 = PhotoImage(file='python.png')
-Label(window, image=photo1, bg='black').grid(row=0, column=0, sticky=E)
+# photo1 = PhotoImage(file='python.png')
+# Label(window, image=photo1, bg='black').grid(row=0, column=0, sticky=E)
 
 # create label
 Label(window, text='Enter a word to get the definition', bg='black', fg='white', font='none 12 bold').grid(row=1, column=0, sticky=W)
